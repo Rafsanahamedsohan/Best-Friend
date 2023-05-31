@@ -1,0 +1,152 @@
+.navbar {
+  background: #000;
+}
+
+.navbar .nav-link {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-img-1 {
+  background: url("../img/all2.png");
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.carousel-img-2 {
+  background: url("../img/all1.jpg");
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.carousel-img-3 {
+  background: url("../img/all3.png");
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.carousel-img-4 {
+  background: url("../img/nayem&me.jpg");
+  background-size: cover;
+  opacity: 0.8;
+}
+
+#home-icon .fa {
+  font-size: 50px;
+}
+
+/* #home-getstarted {
+  position: relative;
+  background: url("../img/ pc.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 250px;
+} */
+
+#home-getstarted .dark-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#gallery img {
+  min-height: 250px;
+}
+
+#copyright {
+  background: #000;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
+}
+
+/* About Page */
+/* #page-header {
+  background: url("../img/image2.jpg");
+  background-size: cover;
+  height: 100px;
+  padding-top: 25px;
+  background-attachment: fixed;
+} */
+
+#about img {
+  width: 350px;
+  height: 350px;
+}
+
+#icon-boxes .fa {
+  font-size: 50px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
+}
+#gallery h2{
+    margin-top: 20px;
+    margin-bottom: 0.5rem;
+
+}
+#testimonial h2{
+    border-top-width: 0px;
+    border-top-style: solid;
+    margin-top: 3rem;
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+    margin-bottom: 48px;
+}
+#home-info h2{
+  border-top-width: 0px;
+  border-top-style: solid;
+  margin-top: 3rem;
+  border-bottom-width: 0px;
+  border-bottom-style: solid;
+  margin-bottom: 48px;
+}
+
+
+
+@media (max-width: 991px) {
+  #home-getstarted {
+    min-height: 350px;
+  }
+}
+
+@media (max-width: 575px) {
+  .carousel-caption h2 {
+    font-size: 36px;
+  }
+
+  .carousel-item .pb-5 {
+    padding-bottom: 0 !important;
+  }
+
+  #home-getstarted h2 {
+    font-size: 36px;
+    margin: 20px 0;
+  }
+}
+
+
+@media (max-width: 480px) {
+  #home-getstarted {
+    min-height: 450px;
+  }
+
+  #home-getstarted h2 {
+    font-size: 36px !important;
+    margin: 15px 0;
+  }
+}
