@@ -11,6 +11,7 @@
 
 .carousel-item {
   height: 100%;
+  padding-top: 32px;
 }
 
 .carousel-img-1 {
